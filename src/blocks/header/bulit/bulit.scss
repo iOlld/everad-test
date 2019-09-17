@@ -1,0 +1,10 @@
+.header {
+  &__bulit-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  &__bulit-intro {
+    display: flex;
+  }
+}

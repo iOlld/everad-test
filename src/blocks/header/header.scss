@@ -1,0 +1,17 @@
+@import "logo/logo.scss";
+@import "bulit/bulit.scss";
+
+.header {
+  background: url("/img/hbg.png");
+  background-repeat: no-repeat;
+  padding-top: 16px;
+  //   background-size: cover;
+  //   background-position: center;
+  width: 100%;
+
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

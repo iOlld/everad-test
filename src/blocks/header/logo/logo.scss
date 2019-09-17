@@ -1,0 +1,52 @@
+.header {
+  &__logo-link {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    // width: 200px;
+  }
+
+  &__logo-icon {
+    display: flex;
+    position: relative;
+    width: 82px;
+    height: 56px;
+
+    &::before {
+      content: "";
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      background: url("/img/Logo.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      left: 0;
+      top: 0;
+      //   z-index: 1;
+    }
+
+    &::after {
+      content: "";
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      background: url("/img/Logo2.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      bottom: 0;
+      right: 0;
+      //   z-index: 1;
+    }
+  }
+
+  &__logo-text {
+    margin-left: 16px;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(56, 51, 52);
+    line-height: 1.818;
+    font-weight: 900;
+  }
+}
