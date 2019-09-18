@@ -1,17 +1,58 @@
-@import "logo/logo.scss";
-@import "bulit/bulit.scss";
-
 .header {
   background: url("/img/hbg.png");
   background-repeat: no-repeat;
-  padding-top: 16px;
-  //   background-size: cover;
-  //   background-position: center;
+  background-size: auto;
   width: 100%;
+  height: 840px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(243, 249, 255, 0.5), rgba(243, 249, 255, 1) 55%);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    background: url('/img/wave.png');
+    bottom: 0;
+    width: 100%;
+    height: 170px;
+  }
 
   &__wrap {
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    position: relative;
+
+  }
+
+  &__top {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: flex-end;
   }
+
 }
+
+@import "logo/logo.scss";
+
+@import "bulit/bulit.scss";
+
+
+.header__center {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+
+@import 'center/header-center-left.scss';
+@import 'center/header-center-right.scss';

@@ -2,9 +2,32 @@
   &__bulit-wrap {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    // position: relative;
   }
+
   &__bulit-intro {
     display: flex;
+    margin-right: 39px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+
   }
+
+  &__bulit-svg {
+    fill: #a3acb5;
+  }
+
+}
+
+.intro__text {
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 18px;
+  margin-left: 13px;
 }
