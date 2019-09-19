@@ -1,18 +1,23 @@
 .header {
 
+    &__center-left {
+        width: 50%;
+    }
+
     &__circle {
         position: relative;
-        transform: translate(-185px);
+        transform: translate(-20.55rem);
 
         &::before {
             content: '';
             position: absolute;
             background: url('/img/Ellipse-2-copy.png');
             background-repeat: no-repeat;
-            width: 571px;
-            height: 571px;
-            top: 110px;
-            left: 110px;
+            background-size: contain;
+            width: 63.44rem;
+            height: 63.44rem;
+            top: 12.22rem;
+            left: 12.22rem;
 
         }
 
@@ -21,10 +26,11 @@
             position: absolute;
             background: url('/img/Layer63.png');
             background-repeat: no-repeat;
-            width: 747px;
-            height: 807px;
-            left: -51px;
-            top: -71px;
+            background-size: contain;
+            width: 83rem;
+            height: 89.66rem;
+            left: -6rem;
+            top: -7.88rem;
         }
 
     }
@@ -32,26 +38,112 @@
     &__circle-svg {
         fill: transparent;
         stroke: #fff;
-        stroke-width: 7px;
+        stroke-width: 0.77rem;
         stroke-dasharray: 218;
-        width: 690px;
-        height: 690px;
+        width: 76.66rem;
+        height: 76.66rem;
         transform: rotate(145deg);
     }
 
     &__product {
-        position: relative;
+        position: absolute;
+        width: 77.55rem;
+        height: 45.22rem;
+        top: 48rem;
+        left: -10rem;
 
-        &::before {
-            content: '';
+        &-broom {
             position: absolute;
             background: url('/img/Layer6.png');
-            width: 313px;
-            height: 232px;
-            top: -260px;
-            left: 195px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            left: 31.5rem;
+            width: 34.77rem;
+            height: 25.77rem;
+        }
+
+        &-box-1 {
+            position: absolute;
+            background: url('/img/Layer14.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            left: 8rem;
+            width: 42rem;
+            height: 30.11rem;
+
+        }
+
+        &-box-2 {
+            position: absolute;
+            background: url('/img/Layer15.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            left: 20rem;
+            bottom: 9.3rem;
+            width: 46.77rem;
+            height: 21rem;
+        }
+
+        &-box-3 {
+            position: absolute;
+            background: url('/img/Layer64.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            left: 36.5rem;
+            bottom: 1.1rem;
+            width: 37.69rem;
+            height: 21rem;
+
+            &::after {
+                content: '';
+                position: absolute;
+                background: url('/img/Layer55.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 43.58rem;
+                height: 3rem;
+                bottom: 5.5rem;
+                z-index: -1;
+            }
+
+        }
+
+        &-tablets {
+            position: absolute;
+            background: url('/img/tablets.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            left: 2.5rem;
+            bottom: 9rem;
+            width: 20.66rem;
+            height: 10.77rem;
+        }
+
+        &-price {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        &-price-style {
+            padding: 0.3rem 1rem;
+            border-radius: 1rem;
+            font-size: 4rem;
+            color: #fff;
+            font-weight: 600;
         }
 
     }
 
+}
+
+
+.orange {
+    background-color: #ff6b00;
+    transform: translate(1rem, -1.8rem);
+}
+
+.green {
+    background-color: #a8ca3f;
+    transform: translate(-4rem, -1.8rem);
 }

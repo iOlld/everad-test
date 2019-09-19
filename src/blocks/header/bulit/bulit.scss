@@ -9,25 +9,36 @@
 
   &__bulit-intro {
     display: flex;
-    margin-right: 39px;
+    margin-right: 4.33rem;
+
+    &:hover .header__bulit-svg{
+      fill: #ff6b00;
+      transition: 0.3s all ease;
+    }
+
+    &:hover .intro__text{
+      color: #ff6b00;
+      transition: 0.3s all ease;
+    }
 
     &:last-child {
-      margin-right: 0px;
+      margin-right: 0rem;
     }
 
   }
 
   &__bulit-svg {
     fill: #a3acb5;
+    transition: 0.3s all ease;
   }
 
 }
 
 .intro__text {
   color: #666666;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 1.77rem;
   font-style: italic;
-  line-height: 18px;
-  margin-left: 13px;
+  line-height: 2rem;
+  margin-left: 1.44rem;
+  transition: 0.3s all ease;
 }
