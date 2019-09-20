@@ -1,4 +1,3 @@
-// alert(`Hello Ded`);
 // document.querySelector(`.header__input-name`).oninput = function (){
 //     document.querySelector(`.header__input-name-svg`).style.fill = `#a7c93d`;
 // };

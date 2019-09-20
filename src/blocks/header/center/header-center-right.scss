@@ -38,17 +38,18 @@ h2 {
     &__center-right{
         display: flex;
         flex-direction: row;
-        width: 50%;
+        width: 60%;
+        // width: 74.44rem;
         margin-top: 4rem;
-        transform: translateX(-7rem);
+        transform: translateX(5rem);
     }
 
     &__center-about{
-        width: 65%;
+        width: 55%;
     }
 
     &__center-form{
-        width: 35%;
+        width: 39%;
     }
 
     &__about-item {
@@ -134,8 +135,9 @@ h2 {
     }
 
     &__center-form{
-        width: 36.66rem;
+        // width: 36.66rem;
         height: 61.44rem;
+        // height: max-content;
         background: #a7c93d;
         border-radius: 2.8rem;
         padding: 0.8rem;
@@ -269,6 +271,7 @@ h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
     }
 
     &__input-name, &__input-phone{
@@ -278,6 +281,25 @@ h2 {
         border-radius: 13rem;
         box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.04);
         border: none;
+        color: #666;
+        font-weight: 400;
+        font-size: 1.77rem;
+        padding-left: 6.11rem;
+        margin-bottom: 1.1rem;
+
+    }
+
+    &__input-name-svg{
+        position: absolute;
+        left: 4.5rem;
+        top: 2rem;
+        fill: #e87845;
+    }
+    &__input-phone-svg{
+        position: absolute;
+        left: 4.5rem;
+        top: 10.5rem;
+        fill: #e87845;
     }
 
 }
