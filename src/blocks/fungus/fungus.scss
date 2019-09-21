@@ -1,0 +1,220 @@
+.fungus{
+    width: 130rem;
+
+    &__wrap{
+        width: 100%;
+        padding-top: 4.5rem;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+    }
+
+    &__subtitle-text{
+        color: #2b2828;
+        font-weight: 700;
+        font-size: 2.66rem;
+        // text-align: center;
+    }
+
+    &__item-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+
+    &__item{
+        width: 38.33rem;
+        padding: 0rem 1.5rem;
+    }
+
+    &__item-top{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__circle{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 23.22rem;
+        height: 23.22rem;
+        position: relative;
+    }
+
+    &__allergy-picture{
+        background: url('/img/allergy.png');
+        background-repeat: no-repeat;
+        background-position: 3rem 3rem;
+
+        &:before{
+            content: '1';
+            color: #fff;
+            font-size: 3.33rem;
+            font-weight: 400;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 5.55rem;
+            height: 5.55rem;
+            border-radius: 3rem;
+            background: #ec9a6a;
+            position: absolute;
+            top: 2rem;
+            right: 1rem;
+        }
+
+        svg{
+           stroke: #ec9a6a;
+        }
+
+    }
+
+    &__finger-picture{
+        background: url('/img/finger.png');
+        background-repeat: no-repeat;
+        background-position: 3rem 3rem;
+
+        &:before{
+            content: '2';
+            color: #fff;
+            font-size: 3.33rem;
+            font-weight: 400;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 5.55rem;
+            height: 5.55rem;
+            border-radius: 3rem;
+            background: #e47643;
+            position: absolute;
+            top: 2rem;
+            right: 1rem;
+        }
+
+        svg{
+           stroke: #e47643;
+        }
+    }
+
+    &__organ-picture{
+        background: url('/img/organ.png');
+        background-repeat: no-repeat;
+        background-position: 3rem 3rem;
+
+        &:before{
+            content: '3';
+            color: #fff;
+            font-size: 3.33rem;
+            font-weight: 400;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 5.55rem;
+            height: 5.55rem;
+            border-radius: 3rem;
+            background: #ec5b19;
+            position: absolute;
+            top: 2rem;
+            right: 1rem;
+        }
+
+        svg{
+           stroke: #ec5b19;
+        }
+    }
+
+    &__circle-svg{
+        width: 23.22rem;
+        height: 23.22rem;
+        fill: transparent;
+        // stroke-width: 9;
+        stroke-width: 1rem;
+        // stroke-dasharray: 236 361;
+        stroke-dasharray: 26.22rem 43.11rem;
+        // stroke-dashoffset: 346;
+        stroke-dashoffset: 38.44rem;
+        
+    }
+
+
+    &__top-text{
+        color: #000;
+        font-size: 2.44rem;
+        font-weight: 500;
+    }
+
+    &__item-bottom{
+        margin-top: 3.44rem;
+    }
+
+    &__bottom-text{
+        color: #444;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 3.2rem;
+        position: relative;
+
+        &::before{
+            content: '';
+            width: 5.55rem;
+            height: 0.33rem;
+            background: #becbd8;
+            position: absolute;
+            left: 0rem;
+            top: -2.22rem;
+        }
+
+    }
+
+    &__statistics-wrap{
+        padding: 5.22rem 10rem;
+        border: 0.3rem solid #f4d3bb;
+        border-radius: 1rem;
+        position: relative;
+        margin-top: 8.22rem;
+
+        &::before{
+            content: '';
+            width: 18.88rem;
+            height: 2rem;
+            background: #fff;
+            position: absolute;
+            bottom: 13.5rem;
+            left: 56rem;
+        }
+
+        &::after{
+            content: '';
+            width: 6.11rem;
+            height: 4.11rem;
+            background: url('/img/statistics.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            position: absolute;
+            bottom: 13.5rem;
+            left: 62rem;
+        }
+
+    }
+
+    &__statistics-text{
+        color: #444;
+        font-size: 2.44rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+}
+
+.span__fungus-statistics{
+    color: #000;
+    font-weight: 500;
+}

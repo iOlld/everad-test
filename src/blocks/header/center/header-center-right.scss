@@ -129,15 +129,16 @@ h2 {
 
     &__form-wrap{
         width: 100%;
-        height: 100%;
+        // height: 100%;
         background: #fff;
         border-radius: 1.8rem;
+        overflow: hidden;
     }
 
     &__center-form{
         // width: 36.66rem;
-        height: 61.44rem;
-        // height: max-content;
+        // height: 61.44rem;
+        height: max-content;
         background: #a7c93d;
         border-radius: 2.8rem;
         padding: 0.8rem;
@@ -188,7 +189,7 @@ h2 {
     }
 
     &__center-discount{
-        padding-top: 5.22rem;
+        padding-top: 4.8rem;
     }
 
     &__discount-text{
@@ -272,6 +273,7 @@ h2 {
         flex-direction: column;
         align-items: center;
         position: relative;
+        padding: 0rem 2.1rem;
     }
 
     &__input-name, &__input-phone{
@@ -286,7 +288,6 @@ h2 {
         font-size: 1.77rem;
         padding-left: 6.11rem;
         margin-bottom: 1.1rem;
-
     }
 
     &__input-name-svg{
@@ -294,24 +295,124 @@ h2 {
         left: 4.5rem;
         top: 2rem;
         fill: #e87845;
+        transition: 0.3s all ease;
+        width: 2.11rem;
+        height: 2.55rem;
     }
     &__input-phone-svg{
         position: absolute;
         left: 4.5rem;
         top: 10.5rem;
         fill: #e87845;
+        transition: 0.3s all ease;
+        width: 2.33rem;
+        height: 2.66rem;
+    }
+
+    &__input-name-wrap{
+        &:focus-within .header__input-name-svg{
+            fill: #a7c93d;
+            transition: 0.3s all ease;
+        }
+    }
+
+    &__input-phone-wrap{
+        &:focus-within .header__input-phone-svg{
+            fill: #a7c93d;
+            transition: 0.3s all ease;
+        }
+    }
+
+    &__btn-submit-wrap{
+        display: flex;
+        border-radius: 5rem;
+        overflow: hidden;
+        padding: 1rem;
+        background: #ffca02;
+        margin-top: 0.3rem;
+    }
+
+    &__btn-submit{
+        font-size: 3.11rem;
+        font-weight: 700;
+        color: #000;
+        background: #ffca02;
+        border: 0.3rem solid #ffdb4e;
+        border-radius: 4rem;
+        padding: 1rem 3rem;
+        line-height: 0.7;
+        transition: 0.3s all ease;
+
+        &:hover{
+            border: 0.3rem solid #a7c93d;
+            transition: 0.3s all ease;
+        }
+
+    }
+
+    &__meter-wrap{
+        margin-top: 1.8rem;
+        padding: 0rem 1.8rem;
+    }
+
+    &__meter-text{
+        color: #333;
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    &__shield-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #eef2f7;
+        margin-top: 1.66rem;
+        width: 100%;
+        padding: 1.22rem 3.2rem 1.44rem 3.2rem;
+    }
+
+    &__shield-svg{
+        width: 2.11rem;
+        height: 2.22rem;
+    }
+
+    &__shield-text{
+        color: #666;
+        font-size: 1.55rem;
     }
 
 }
+
 
 .smal-machine-svg{
     position: absolute;
     top: -0.7rem;
     left: 0.8rem;
     fill: #fd7532;
+    width: 3rem;
+    height: 1.66rem;
+}
+
+.header__price-arrow-svg{
+    position: absolute;
+    left: 28rem;
+    top: 20rem;
+    width: 5.44rem;
+    height: 25.88rem;
 }
 
 .span__discount-text{
     color: #fd7532;
+    font-weight: 500;
+}
+
+.span__header-btn{
+    font-size: 1.77rem;
+}
+
+.span__header-meter{
+    color: #9dbd39;
     font-weight: 500;
 }

@@ -39,11 +39,12 @@
     &__circle-svg {
         fill: transparent;
         stroke: #fff;
-        stroke-width: 0.77rem;
-        stroke-dasharray: 218;
+        stroke-width: 6;
+        stroke-dasharray: 250 200;
+        stroke-dashoffset: 280;
         width: 76.66rem;
         height: 76.66rem;
-        transform: rotate(145deg);
+        // transform: rotate(145deg);
     }
 
     &__product {

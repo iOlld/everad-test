@@ -3,13 +3,13 @@ html {
 }
 
 
-// @media (min-width: 3840px) {
+@media (min-width: 3840px) {
 
-//   html{
-//       font-size: 24px;
-//   }
+  html{
+      font-size: 18px;
+  }
 
-// }
+}
 
 
 @media screen and (min-width: 1400px) and (max-width: 3839.8px) {
@@ -44,6 +44,7 @@ html {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -61,4 +62,27 @@ html {
 
 a {
   text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+h3{
+  color: #383334;
+  font-size: 5.33rem;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.logo__icon{
+  display: flex;
+  width: 10.22rem;
+  height: 7.22rem;
+  background: url('/img/2-layers.png');
+  background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: contain;
 }
