@@ -1,8 +1,8 @@
 .fungus{
-    width: 130rem;
 
     &__wrap{
-        width: 100%;
+        max-width: 130rem;
+        // width: 45.7%;
         padding-top: 4.5rem;
         // display: flex;
         // flex-direction: column;
@@ -37,9 +37,9 @@
     }
 
     &__circle{
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // background-size: contain;
         width: 23.22rem;
         height: 23.22rem;
         position: relative;
@@ -48,7 +48,8 @@
     &__allergy-picture{
         background: url('/img/allergy.png');
         background-repeat: no-repeat;
-        background-position: 3rem 3rem;
+        background-position: 70% 71%;
+        background-size: 85%;
 
         &:before{
             content: '1';
@@ -77,7 +78,10 @@
     &__finger-picture{
         background: url('/img/finger.png');
         background-repeat: no-repeat;
-        background-position: 3rem 3rem;
+        background-position: 70% 71%;
+        background-size: 85%;
+        // background-position: 3rem 3rem;
+        // background-size: contain;
 
         &:before{
             content: '2';
@@ -105,7 +109,10 @@
     &__organ-picture{
         background: url('/img/organ.png');
         background-repeat: no-repeat;
-        background-position: 3rem 3rem;
+        background-position: 70% 71%;
+        background-size: 85%;
+        // background-position: 3rem 3rem;
+        // background-size: contain;
 
         &:before{
             content: '3';
@@ -134,12 +141,12 @@
         width: 23.22rem;
         height: 23.22rem;
         fill: transparent;
-        // stroke-width: 9;
-        stroke-width: 1rem;
-        // stroke-dasharray: 236 361;
-        stroke-dasharray: 26.22rem 43.11rem;
-        // stroke-dashoffset: 346;
-        stroke-dashoffset: 38.44rem;
+        stroke-width: 9;
+        // stroke-width: 1rem;
+        stroke-dasharray: 236 361;
+        // stroke-dasharray: 26.22rem 43.11rem;
+        stroke-dashoffset: 346;
+        // stroke-dashoffset: 38.44rem;
         
     }
 
@@ -174,6 +181,7 @@
     }
 
     &__statistics-wrap{
+        width: 100%;
         padding: 5.22rem 10rem;
         border: 0.3rem solid #f4d3bb;
         border-radius: 1rem;
@@ -183,7 +191,7 @@
         &::before{
             content: '';
             width: 18.88rem;
-            height: 2rem;
+            height: 3rem;
             background: #fff;
             position: absolute;
             bottom: 13.5rem;

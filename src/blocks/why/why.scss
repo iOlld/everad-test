@@ -1,0 +1,205 @@
+.why{
+    background: #edf7f9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    &__wrap{
+        width: 130rem;
+        padding-top: 4.5rem;
+    }
+
+    &__item-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 6.88rem;
+    }
+
+    &__item{
+        width: 41.11rem;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border-top: 0.6rem solid #a8c53a;
+        border-radius: 0.6rem;
+        padding: 7.77rem 4.66rem 3.88rem 4.66rem;
+        text-align: center;
+        position: relative;
+
+        &::before{
+            content: '';
+            position: absolute;
+            width: 11.11rem;
+            height: 11.11rem;
+            background: #edf7f9;
+            border-radius: 6rem;
+            top: -6.5rem;
+            right: 15rem;
+        }
+
+    }
+
+    &__title-text{
+        color: #222222;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2.88rem;
+        margin-top: 1.66rem;
+        margin-bottom: 3.33rem;
+    }
+
+    &__no{
+        color: #ff6b00;
+        font-weight: 900;
+        font-size: 2.66rem;
+        line-height: 2.88rem;
+        margin-top: 4.44rem;
+        margin-bottom: 2.11rem;
+    }
+
+    &__subtitle-text{
+        font-size: 2rem;
+        color: #444444;
+        font-weight: 400;
+        line-height: 2.88rem;
+    }
+
+    &__arrow-down{
+        border-bottom: 0.1rem solid #d2dce6;
+        position: relative;
+
+        &::before{
+            content: '';
+            position: absolute;
+            background: #fff;
+            width: 3.33rem;
+            height: 1rem;
+            top: -0.5rem;
+            right: 45%;
+        }
+
+        .for__arrow{
+            position: relative;
+
+            &::before{
+                content: '';
+                position: absolute;
+                width: 2.3rem;
+                height: 0.1rem;
+                background: #d2dce6;
+                transform: rotate(42deg);
+                top: 0.7rem;
+                right: -0.3rem;
+            }
+
+            &::after{
+                content: '';
+                position: absolute;
+                width: 2.3rem;
+                height: 0.1rem;
+                background: #d2dce6;
+                transform: rotate(-42deg);
+                top: 0.7rem;
+                left: -0.3rem;
+            }
+
+        }
+
+    }
+
+    &__conclusion{
+        padding: 3rem 10.44rem;
+        border: 0.33rem solid #f4d3bb;
+        border-radius: 1rem;
+        margin-top: 6.66rem;
+        position: relative;
+        
+        &::before{
+            content: '';
+            color: #000000;
+            width: 18.88rem;
+            height: 2rem;
+            background: #f3f9ff;
+            position: absolute;
+            top: -1rem;
+            right: 55rem;
+        }
+
+        &:after{
+            content: '!';
+            color: #f4d3bb;
+            font-weight: 700;
+            font-size: 7.77rem;
+            position: absolute;
+            top: -4rem;
+            right: 64rem;
+        }
+
+    }
+
+    &__conclusion-center{
+        color: #000000;
+        font-weight: 700;
+        font-size: 2.44rem;
+        position: absolute;
+        top: -1.3rem;
+        right: 60rem;
+        z-index: 1;
+
+    }
+
+    &__conclusion-text{
+        font-size: 2.33rem;
+        font-weight: 400;
+        line-height: 3.11rem;
+        text-align: center;
+    }
+
+}
+
+
+.span{
+
+    &__why-title{
+        color: #666666;
+        font-size: 1.77rem;
+        font-style: italic;
+        line-height: 3.11rem;
+    }
+
+    &__why-subtitle{
+        color: #000000;
+        font-weight: 600;
+    }
+
+    &__why-conclusion{
+        color: #000000;
+        font-weight: 600;
+    }
+
+}
+
+.why__svg{
+    width: 8rem;
+    height: 8rem;
+    fill: #ff6b00;
+    position: absolute;
+}
+
+.star-svg{
+    top: -5rem;
+    right: 16.5rem;
+}
+
+.cream-svg{
+    top: -5rem;
+    right: 14.5rem;
+}
+
+.pills-svg{
+    top: -4rem;
+    right: 15rem;
+}
