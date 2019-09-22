@@ -1,5 +1,5 @@
 .header {
-  background: url("/img/hbg.png");
+  background: url("../img/hbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -11rem;
@@ -17,7 +17,7 @@
   &::after {
     content: '';
     position: absolute;
-    background: url('/img/wave.png');
+    background: url('../img/wave.png');
     background-repeat: no-repeat;
     background-size: cover;
     bottom: 0;

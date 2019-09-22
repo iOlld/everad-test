@@ -11,7 +11,7 @@
         &::before {
             content: '';
             position: absolute;
-            background: url('/img/Ellipse-2-copy.png');
+            background: url('../img/Ellipse-2-copy.png');
             background-repeat: no-repeat;
             background-size: contain;
             width: 63.44rem;
@@ -24,7 +24,7 @@
         &::after {
             content: '';
             position: absolute;
-            background: url('/img/Layer63.png');
+            background: url('../img/Layer63.png');
             background-repeat: no-repeat;
             background-size: contain;
             width: 83rem;
@@ -54,7 +54,7 @@
 
         &-broom {
             position: absolute;
-            background: url('/img/Layer6.png');
+            background: url('../img/Layer6.png');
             background-repeat: no-repeat;
             background-size: cover;
             left: 31.5rem;
@@ -64,7 +64,7 @@
 
         &-box-1 {
             position: absolute;
-            background: url('/img/Layer14.png');
+            background: url('../img/Layer14.png');
             background-repeat: no-repeat;
             background-size: cover;
             left: 8rem;
@@ -75,7 +75,7 @@
 
         &-box-2 {
             position: absolute;
-            background: url('/img/Layer15.png');
+            background: url('../img/Layer15.png');
             background-repeat: no-repeat;
             background-size: cover;
             left: 20rem;
@@ -86,7 +86,7 @@
 
         &-box-3 {
             position: absolute;
-            background: url('/img/Layer64.png');
+            background: url('../img/Layer64.png');
             background-repeat: no-repeat;
             background-size: cover;
             left: 36.5rem;
@@ -97,7 +97,7 @@
             &::after {
                 content: '';
                 position: absolute;
-                background: url('/img/Layer55.png');
+                background: url('../img/Layer55.png');
                 background-repeat: no-repeat;
                 background-size: cover;
                 width: 43.58rem;
@@ -110,7 +110,7 @@
 
         &-tablets {
             position: absolute;
-            background: url('/img/tablets.png');
+            background: url('../img/tablets.png');
             background-repeat: no-repeat;
             background-size: cover;
             left: 2.5rem;
