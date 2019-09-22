@@ -1,0 +1,184 @@
+.effective{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    &__wrap{
+        max-width: 130rem;
+    }
+
+    &__item-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10rem;
+    }
+
+    &__item-helper{
+        background: #fff;
+        z-index: 1;
+    }
+
+    &__item{
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        border: 0.44rem solid #f64d01;
+        border-radius: 1rem;
+        padding: 9.44rem 3.44rem 4rem 3.44rem;
+        text-align: center;
+        position: relative;
+        margin: 1.66rem;
+        // overflow: hidden;
+
+        &::before{
+            content: '';
+            position: absolute;
+            width: 11.68rem;
+            height: 11.6rem;
+            border-radius: 6rem;
+            border: 0.4rem solid #f64d01;
+            top: -7rem;
+            right: 13.1rem;
+            // z-index: 0;
+        }
+
+        &::after{
+            content: '';
+            position: absolute;
+            width: 11.7rem;
+            height: 1rem;
+            background: #fff;
+            right: 13.5rem;
+            top: -1rem;
+        }
+
+        &:last-child{
+            border: 0.44rem solid #62bd1f;
+
+            &::before{
+                border: 0.44rem solid #62bd1f;
+            }
+
+        }
+
+    }
+
+    &__picture-ointment, &__picture-folk, &__picture-miko{
+        position: relative;
+
+        &::before{
+            content: '';
+            position: absolute;
+            background: #fff;
+            width: 13rem;
+            height: 7rem;
+            top: -16.9rem;
+            right: 9.5rem;
+        }
+
+    }
+
+    &__picture-ointment{
+
+        &::after{
+            content: '';
+            position: absolute;
+            background: url('/img/ointment.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 12rem;
+            height: 8rem;
+            top: -15.9rem;
+            right: 9.5rem;
+            z-index: 1;
+        }
+    }
+
+    &__picture-folk{
+        
+        &::after{
+            content: '';
+            position: absolute;
+            background: url('/img/folk.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 15rem;
+            height: 13rem;
+            top: -18.9rem;
+            right: 8rem;
+            z-index: 1;
+        }
+    }
+
+    &__picture-miko{
+        
+        &::after{
+            content: '';
+            position: absolute;
+            background: url('/img/miko.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 9rem;
+            height: 7rem;
+            top: -14.9rem;
+            right: 11.5rem;
+            z-index: 1;
+        }
+    }
+
+    &__other-text{
+        color: #444444;
+        font-size: 2.55rem;
+        font-weight: 400;
+        line-height: 5.33rem;
+    }
+
+    &__subtitle-text{
+        font-size: 2rem;
+        color: #444444;
+        font-weight: 400;
+        line-height: 2.88rem;
+    }
+
+    &__whatfor-wrap{
+        background:
+        linear-gradient(#fff,#fff) padding-box, 
+        linear-gradient(to right, #f64d01, #62bd1f) border-box;
+        border: 0.44rem solid transparent;
+        border-radius: 1rem;
+        padding: 3.33rem;
+        margin-top: 2rem;
+    }
+
+    &__whatfor-text{
+        color: #000000;
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 2.946rem;
+    }
+
+}
+
+.span{
+    
+    &__red-for-effective{
+        color: #fa4f01;
+    }
+
+    &__effective-subtitle{
+        color: #000000;
+        font-weight: 600;
+    }
+
+    &__effectiwe-whatfor{
+        color: #f64d01;
+    }
+
+}
