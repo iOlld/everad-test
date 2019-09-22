@@ -213,7 +213,7 @@ h4 {
   display: flex;
   width: 10.22rem;
   height: 7.22rem;
-  background: url("/img/2-layers.png");
+  background: url("../img/2-layers.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
@@ -225,7 +225,7 @@ h4 {
   display: flex;
   width: 6.77rem;
   height: 6.77rem;
-  background: url("/img/Logo.png");
+  background: url("../img/Logo.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
