@@ -24,9 +24,7 @@
             flex-direction: column;
             align-items: center;
             height: 110rem;
-            // height: max-content;
             width: 100%;
-            // width: max-content;
         }
 
         &__circle{
@@ -48,10 +46,6 @@
             justify-content: center;
             transform: translateX(0rem);
         }
-
-        // &__form{
-        //     transform: translateX(0rem);
-        // }
 
     }
 
@@ -88,11 +82,7 @@
     .header{
 
         &__center{
-            // flex-direction: column;
-            // align-items: center;
-            // height: 110rem;
             height: max-content;
-            // width: 100%;
             width: max-content;
         }
 

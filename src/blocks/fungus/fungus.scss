@@ -21,7 +21,6 @@
 
     &__wrap{
         max-width: 130rem;
-        // padding-top: 4.5rem;
         padding-top: 12.5rem;
     }
 
@@ -54,9 +53,6 @@
     }
 
     &__circle{
-        // background-repeat: no-repeat;
-        // background-position: center;
-        // background-size: contain;
         width: 23.22rem;
         height: 23.22rem;
         position: relative;
@@ -97,8 +93,6 @@
         background-repeat: no-repeat;
         background-position: 70% 71%;
         background-size: 85%;
-        // background-position: 3rem 3rem;
-        // background-size: contain;
 
         &:before{
             content: '2';
@@ -128,8 +122,6 @@
         background-repeat: no-repeat;
         background-position: 70% 71%;
         background-size: 85%;
-        // background-position: 3rem 3rem;
-        // background-size: contain;
 
         &:before{
             content: '3';
@@ -159,11 +151,8 @@
         height: 23.22rem;
         fill: transparent;
         stroke-width: 9;
-        // stroke-width: 1rem;
         stroke-dasharray: 236 361;
-        // stroke-dasharray: 26.22rem 43.11rem;
         stroke-dashoffset: 346;
-        // stroke-dashoffset: 38.44rem;
         
     }
 
