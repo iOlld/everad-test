@@ -1161,7 +1161,7 @@ h2 {
     position: absolute;
     width: 100%;
     height: 16.77rem;
-    background: url("/img/wave2.png");
+    background: url("./img/wave2.png");
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -1219,7 +1219,7 @@ h2 {
     height: 23.22rem;
     position: relative; }
   .fungus__allergy-picture {
-    background: url("/img/allergy.png");
+    background: url("./img/allergy.png");
     background-repeat: no-repeat;
     background-position: 70% 71%;
     -webkit-background-size: 85% 85%;
@@ -1258,7 +1258,7 @@ h2 {
     .fungus__allergy-picture svg {
       stroke: #ec9a6a; }
   .fungus__finger-picture {
-    background: url("/img/finger.png");
+    background: url("./img/finger.png");
     background-repeat: no-repeat;
     background-position: 70% 71%;
     -webkit-background-size: 85% 85%;
@@ -1297,7 +1297,7 @@ h2 {
     .fungus__finger-picture svg {
       stroke: #e47643; }
   .fungus__organ-picture {
-    background: url("/img/organ.png");
+    background: url("./img/organ.png");
     background-repeat: no-repeat;
     background-position: 70% 71%;
     -webkit-background-size: 85% 85%;
@@ -1382,7 +1382,7 @@ h2 {
       content: '';
       width: 6.11rem;
       height: 4.11rem;
-      background: url("/img/statistics.png");
+      background: url("./img/statistics.png");
       background-repeat: no-repeat;
       background-position: center;
       -webkit-background-size: contain;
@@ -1657,7 +1657,7 @@ h2 {
     position: absolute;
     width: 100%;
     height: 16.77rem;
-    background: url("/img/wave2.png");
+    background: url("./img/wave2.png");
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -1742,7 +1742,7 @@ h2 {
   .effective__picture-ointment::after {
     content: '';
     position: absolute;
-    background: url("/img/ointment.png");
+    background: url("./img/ointment.png");
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1755,7 +1755,7 @@ h2 {
   .effective__picture-folk::after {
     content: '';
     position: absolute;
-    background: url("/img/folk.png");
+    background: url("./img/folk.png");
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1768,7 +1768,7 @@ h2 {
   .effective__picture-miko::after {
     content: '';
     position: absolute;
-    background: url("/img/miko.png");
+    background: url("./img/miko.png");
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;

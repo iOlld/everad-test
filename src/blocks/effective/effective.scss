@@ -9,7 +9,7 @@
         position: absolute;
         width: 100%;
         height: 16.77rem;
-        background: url('/img/wave2.png');
+        background: url('./img/wave2.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -98,7 +98,7 @@
         &::after{
             content: '';
             position: absolute;
-            background: url('/img/ointment.png');
+            background: url('./img/ointment.png');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -115,7 +115,7 @@
         &::after{
             content: '';
             position: absolute;
-            background: url('/img/folk.png');
+            background: url('./img/folk.png');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -132,7 +132,7 @@
         &::after{
             content: '';
             position: absolute;
-            background: url('/img/miko.png');
+            background: url('./img/miko.png');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
