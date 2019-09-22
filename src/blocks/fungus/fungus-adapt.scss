@@ -1,0 +1,27 @@
+@media screen and (max-width: 980px) {
+
+    .fungus{
+
+        &__wrap{
+            padding-top: 7rem;
+        }
+
+        &__item{
+            margin: 4rem;
+        }
+
+        &__statistics-wrap{
+
+            &::before{
+                content: none;
+            }
+
+            &:after{
+                content: none;
+            }
+
+        }
+        
+    }
+
+}

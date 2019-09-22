@@ -34,12 +34,9 @@ html {
 
 .body {
   width: 100%;
-  // max-width: 2560px;
-  // max-width: 100%;
   min-width: 320px;
   margin: 0 auto;
   font-size: 1.6rem;
-  // font-size: 1rem;
   font-family: "Roboto", sans-serif;
 
   &__wrap {
@@ -50,11 +47,6 @@ html {
   }
 }
 
-// .wrapper {
-//   width: 1170px;
-//   // display: flex;
-//   // flex-direction: column;
-// }
 
 .item {
   display: flex;
@@ -93,8 +85,6 @@ h4{
   background: url('/img/2-layers.png');
   background-repeat: no-repeat;
   background-size: cover;
-  // background-position: center;
-  // background-size: contain;
 }
 
 .logo__icon-two{
@@ -104,26 +94,16 @@ h4{
   background: url('/img/Logo.png');
   background-repeat: no-repeat;
   background-size: cover;
-  // transform: translateY(-14rem);
 }
 
-.wave-bottom{
+
+svg{
   width: 100%;
-  height: 14.77rem;
-  background: url('/img/wave2.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  transform: translateY(4rem);
-  z-index: 1;
+  height: 100%;
 }
 
-// .wave-top{
-//   background: url('/img/wave.png');
-//   width: 100%;
-//   height: 18.88rem;
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-size: cover;
-//   transform: translateY(-4rem);
-// }
+@media screen and (max-width: 980px) {
+  section{
+    padding: 3rem;
+  }
+}

@@ -1,0 +1,29 @@
+@media screen and (max-width: 980px) {
+
+    .how{
+
+        &__container{
+            flex-wrap: wrap-reverse;
+        }
+        
+    }
+
+}
+
+@media screen and (max-width: 610px) {
+
+    .how{
+        
+        &__container{
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        &__picture{
+            &::before{
+                right: -8rem;
+                width: 40rem;
+            }
+        }
+    }
+}

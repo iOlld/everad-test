@@ -1,0 +1,25 @@
+@media screen and (max-width: 980px) {
+
+    .why{
+        
+        &__conclusion{
+
+            &::before{
+                content: none;
+            }
+
+            &:after{
+                content: none;
+            }
+
+        }
+
+        &__conclusion-center{
+            position: static;
+            text-align: center;
+            margin-bottom: 1.8rem;
+        }
+        
+    }
+
+}

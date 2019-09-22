@@ -1,0 +1,163 @@
+.how{
+    background: #edf7f9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    position: relative;
+
+    &__wrap{
+        max-width: 130rem;
+    }
+
+    &__container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 4.33rem;
+    }
+
+    &__picture-wrap{
+        max-width: 46.66rem;
+        margin: 1.66rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    &__picture{
+        width: 24.33rem;
+        height: 42.22rem;
+        background: url('/img/glass.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+
+        &::before{
+            content: '';
+            position: absolute;
+            width: 42.66rem;
+            height: 30.55rem;
+            background: url('/img/Layer14.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            bottom: -4rem;
+            right: 7rem;
+        }
+
+        &:after{
+            content: '';
+            position: absolute;
+            width: 21.33rem;
+            height: 10rem;
+            background: url('/img/water.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            top: 5rem;
+            right: 2rem;
+        }
+
+    }
+
+    &__steps{
+        width: 42.77rem;
+        margin: 1.66rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__steps-item{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__steps-icon-wrap{
+        width: 15rem;
+        height: 15rem;
+        background: #e5d0b9;
+        border-radius: 8rem;
+        margin: 1.11rem;
+        padding: 0.88rem;
+        transition: 0.3s all ease;
+    }
+
+    &__steps-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 13.22rem;
+        height: 13.22rem;
+        border-radius: 7rem;
+        border: 0.88rem solid #f64d01;
+        background: #fff;
+        transition: 0.3s all ease;
+    }
+
+    &__svg{
+        fill: #fa4f01;
+        width: 6.77rem;
+        height: 6.77rem;
+        transition: 0.3s all ease;
+    }
+
+    &__steps-text-wrap{
+        display: flex;
+        max-width: 24.5rem;
+        margin: 0.5rem;
+    }
+
+    &__steps-text{
+        color: #000000;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2.88rem;
+        position: relative;
+
+        &::before{
+            content: '';
+            position: absolute;
+            width: 2.22rem;
+            height: 0.33rem;
+            background: #7bbf1c;
+            left: 0rem;
+            top: -2.22rem;
+        }
+
+    }
+
+}
+
+.span{
+
+    &__how-title{
+        color: #fa4f01;
+    }
+
+}
+
+.how__steps-item{
+
+    &:hover .how__steps-icon-wrap{
+        background-color: #7bbf1c;
+        transition: 0.3s all ease;
+    }
+
+    &:hover .how__steps-icon{
+        border: 0.88rem solid #e5d0b9;
+        transition: 0.3s all ease;
+    }
+
+    &:hover .how__svg{
+        fill: #7bbf1c;
+        transition: 0.3s all ease;
+    }
+
+}
